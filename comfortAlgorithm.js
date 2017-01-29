@@ -486,6 +486,6 @@ function validation(str)
           }
       }
   }
-stored.value=websiteName;
+
   return true;
 }
