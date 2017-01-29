@@ -11,17 +11,70 @@ h1
   letter-spacing: 0.001em;
   font-weight: 100em;
   font-size: 6vw;
+  font-size:10vh;
   font-family: 'Exo', sans-serif;
   text-transform: uppercase;
+  margin: .01em;
+  padding-top: 14rem;
+}
+h6
+{
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.001em;
+  font-weight: 100em;
+  font-size: 2vw;
+  font-size:3vh;
+  font-family: 'Exo', sans-serif;
+  margin: 0.01em;
+}
+h2
+{
+margin: .01em;
+  color: #ffffff;
+  letter-spacing: 0.001em;
+  font-weight: 100em;
+  font-size: 6vw;
+  font-size:10vh;
+  font-family: 'Exo', sans-serif;
+  text-transform: uppercase;
+
+  text-align: center;
+/*  width: 300px;
+  padding: 10px 20px;
+  border-color: transparent;
+  border-bottom: 1px solid darkgrey;
+  font-size: 15px;
+  background: transparent;*/
+}
+input{
+  width: 6vw;
+  padding: 10px 20px;
+  border-color: transparent;
+  border-bottom: 1px solid darkgrey;
+  font-size: 3vh;
+  color: white;
+  background: rgba(0,0,0,.1);
+}
+
+input:focus{
+  outline: none;
 }
 
 body
 {
 	background: linear-gradient(270deg, #0f9875, #0f5e8b, #943829);
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 100s ease infinite;
-	-moz-animation: Gradient 100s ease infinite;
-	animation: Gradient 100s ease infinite;
+	-webkit-animation: Gradient 200s ease infinite;
+	-moz-animation: Gradient 200s ease infinite;
+	animation: Gradient 200s ease infinite;
+  transition: opacity 1s linear;
+
+
+}
+# info
+{
+  font-size: 10px;
 }
 
 @-webkit-keyframes Gradient
