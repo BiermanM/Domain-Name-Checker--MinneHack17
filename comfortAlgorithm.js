@@ -11,7 +11,16 @@ function main(websiteName)
       var rbokd = ratingBasedOnKeyDist(websiteName) * 1.1; // adds a 10% increase
       var rboe = ratingBasedOnExtension(extension);
       var rbokde = ratingBasedOnKeyDist(extension) * 1.1; // adds a 10% increase
-      alert( Math.round (((((rbol + rbokd) / 2) + (((rboe + rbokde) / 2)) * 1.05) / 2) * 10) / 10 + " out of 10." );
+      var rating = Math.round (((((rbol + rbokd) / 2) + (((rboe + rbokde) / 2)) * 1.05) / 2) * 10) / 10;
+      if (rating >= 8.0)
+        alert( rating + " out of 10. You have a great domain name!" );
+      else
+      {
+        if ( ((rbol + rbokd) / 2) < (((rboe + rbokde) / 2) * 1.05) )
+          alert (rating + " out of 10. There may be a few things you could fix. How about choosing a shorter domain name?");
+        else
+          alert (rating + " out of 10. There may be a few things you could fix. How about choosing a shorter extension?");
+      }
   }
 }
 
