@@ -12,7 +12,7 @@ function main(websiteName)
       var rboe = ratingBasedOnExtension(extension);
       var rbokde = ratingBasedOnKeyDist(extension) * 1.1; // adds a 10% increase
       var rating = Math.round (((((rbol + rbokd) / 2) + (((rboe + rbokde) / 2)) * 1.05) / 2) * 10) / 10;
-      if (rating >= 8.0)
+      if (rating >= 6.5)
         alert( rating + " out of 10. You have a great domain name!" );
       else
       {
