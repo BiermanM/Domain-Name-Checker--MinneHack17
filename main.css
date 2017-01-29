@@ -1,4 +1,8 @@
-
+html
+{
+  -webkit-font-smoothing: antialiased !important;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
 h1
 {
   /*font-size: 70px;*/
@@ -7,13 +11,13 @@ h1
   letter-spacing: 0.001em;
   font-weight: 100em;
   font-size: 6vw;
-  font-family: 'Nunito', arial, serif;
+  font-family: 'Exo', sans-serif;
   text-transform: uppercase;
 }
 
 body
 {
-	background: linear-gradient(270deg, #18f0b8, #18a2f0, #db5640);
+	background: linear-gradient(270deg, #0f9875, #0f5e8b, #943829);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 100s ease infinite;
 	-moz-animation: Gradient 100s ease infinite;
