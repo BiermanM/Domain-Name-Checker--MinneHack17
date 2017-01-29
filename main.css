@@ -3,6 +3,25 @@ html
   -webkit-font-smoothing: antialiased !important;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
+
+footer {
+  align-items: center;
+  font-size: 12px;
+
+}
+
+footer .col-sm-12 {
+  text-align: center;
+  background: rgba(0,0,0,.1);
+  border-color: rgba(0,0,0,.1);
+  padding:  10px;
+  padding-left: 0px;
+  margin:0;
+  color:white;
+  left:0px;
+}
+
+
 h1
 {
   /*font-size: 70px;*/
@@ -40,12 +59,7 @@ margin: .01em;
   text-transform: uppercase;
 
   text-align: center;
-/*  width: 300px;
-  padding: 10px 20px;
-  border-color: transparent;
-  border-bottom: 1px solid darkgrey;
-  font-size: 15px;
-  background: transparent;*/
+
 }
 input{
   width: 6vw;
@@ -55,6 +69,7 @@ input{
   font-size: 3vh;
   color: white;
   background: rgba(0,0,0,.1);
+
 }
 
 input:focus{
@@ -72,10 +87,7 @@ body
 
 
 }
-# info
-{
-  font-size: 10px;
-}
+
 
 @-webkit-keyframes Gradient
 {
